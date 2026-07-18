@@ -1,0 +1,15 @@
+$TTL 86400
+@       IN  SOA     ns1.example.local. admin.example.local. (
+                        2026071801  ; serial
+                        3600        ; refresh
+                        1800        ; retry
+                        604800      ; expire
+                        86400 )     ; minimum
+
+        IN  NS      ns1.example.local.
+
+ns1     IN  A       192.168.56.10
+ns1     IN  AAAA    2001:db8::1
+
+@       IN  A       192.168.56.10
+www     IN  A       192.168.56.10
