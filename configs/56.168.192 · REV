@@ -1,0 +1,11 @@
+$TTL 86400
+@       IN  SOA     ns1.example.local. admin.example.local. (
+                        2026071901  ; serial
+                        3600        ; refresh
+                        1800        ; retry
+                        604800      ; expire
+                        86400 )     ; minimum
+
+        IN  NS      ns1.example.local.
+
+10      IN  PTR     ns1.example.local.
